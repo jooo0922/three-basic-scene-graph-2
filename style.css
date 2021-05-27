@@ -1,0 +1,21 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+#canvas {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+#info {
+  position: absolute;
+  left: 1em;
+  top: 1em;
+  background-color: rgba(0, 0, 0, 0.8);
+  /* em: 부모 태그의 padding값의 0.5배. rem: 문서의 최상위 요소인 html 요소 크기의 기본값인 16px 기준. */
+  padding: 0.5em; 
+  color: white;
+  font-family: monospace;
+}
